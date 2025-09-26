@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Integration Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightyellow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .post {
+            margin-bottom: 20px;
+        }
+
+        .post-title {
+            font-weight: bold;
+        }
+
+        .heading {
+            color: Red;
+
+        }
+
+        .heading_1 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">API Integration </h1>
+    <div id="postsContainer" class="container">
+        <h2 class="heading_1">Posts</h2>
+        <!-- Posts will be dynamically inserted here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
