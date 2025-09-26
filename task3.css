@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top-section {
+
+    height: 100vh;
+    background-size: cover;
+}
+
+.section-heading {
+    color: yellow;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 300px;
+    padding: 20px;
+}
+
+.paragraph_1 {
+    color: pink;
+    font-family: "Caveat";
+    font-size: 25px;
+    width: 400px;
+}
+
+.button {
+    background-image: linear-gradient(#2196f3, #f44336);
+    border-radius: 5px;
+    margin: 10px;
+}
